@@ -12,7 +12,7 @@ polygon_url = "https://polygon-rpc.com"  # Используйте правиль
 web3 = Web3(Web3.HTTPProvider(polygon_url))
 
 # Адрес токена и его ABI
-token_address = web3.to_checksum_address('0x1a9b54a3075119f1546c52ca0940551a6ce5d2d0')
+token_address = web3.to_checksum_address('Адресс')
 # Стандартный ABI нашел на гитхабе
 token_abi = [
     {
