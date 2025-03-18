@@ -8,7 +8,7 @@ app = Flask(__name__)
 POLYGONSCAN_API_KEY = 'ТОКЕН'
 
 # Подключаемся к сети Polygon
-polygon_url = "https://polygon-rpc.com"  # Используйте правильный RPC-узел
+polygon_url = "https://polygon-rpc.com"  
 web3 = Web3(Web3.HTTPProvider(polygon_url))
 
 # Адрес токена и его ABI
