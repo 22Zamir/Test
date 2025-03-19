@@ -55,7 +55,7 @@ token_abi = [
 
 token_contract = web3.eth.contract(address=token_address, abi=token_abi)
 
-#здесь начались трудности
+
 @app.route('/get_balanceOf', methods=['GET'])
 def get_balance():
     # получаем адреса из JSON-запроса
